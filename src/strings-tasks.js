@@ -361,7 +361,6 @@ function findLongestWord(sentence) {
   });
   return longestWord;
 }
-console.log(findLongestWord('fasfas sfasf nbcvncv dgsd 24'));
 
 /**
  * Returns the string where each word is reversed.
@@ -403,7 +402,6 @@ function invertCase(str) {
     })
     .join('');
 }
-console.log(invertCase('Hello, World!'));
 
 /**
  * Returns the result of string template and given parameters firstName and lastName.
@@ -435,7 +433,6 @@ function getStringFromTemplate(firstName, lastName) {
 function extractNameFromTemplate(value) {
   return value.slice(7, -1);
 }
-console.log(extractNameFromTemplate('Hello, John Doe!'));
 
 /**
  * Remove the first and last angle brackets from tag string
@@ -451,7 +448,6 @@ console.log(extractNameFromTemplate('Hello, John Doe!'));
 function unbracketTag(str) {
   return str.slice(1, -1);
 }
-console.log(unbracketTag('<div>'));
 
 /**
  * Extracts e-mails from single string with e-mails list delimited by semicolons
@@ -503,7 +499,6 @@ function encodeToRot13(str) {
     })
     .join('');
 }
-console.log(encodeToRot13('Gb trg gb gur bgure fvqr!'));
 
 /**
  * Returns playid card id.
